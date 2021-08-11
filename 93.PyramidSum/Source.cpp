@@ -27,6 +27,7 @@ int Print(int _a) {
     return v[_a].value;
 }
 int main() {
+    printf("size:");
     int a;
     scanf_s("%d", &a);
     for (int i = 0; i < a; i++) {
